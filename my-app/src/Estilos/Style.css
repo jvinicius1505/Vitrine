@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+body, .post{
+    background-color: #ec8a90;
+}
+
+.header{
+    font-family:'Water Brush', cursive;
+    text-align: center;
+    font-size: 2em;
+    background-color: #e6d1ca;
+    border-bottom: solid 2px;
+    margin-bottom: -30px;
+}
+
+.filtro{
+    margin-bottom: 4vh;
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}
+
+.minimo, .maximo{
+    cursor: pointer;
+    background-color: grey;
+    height: 1.3em;
+    border: none;
+    border-bottom: 3px solid black;
+    margin: 0px 15px 0px 15px;
+}
+
+.minimo::placeholder ,.maximo::placeholder{
+    color: rgb(83, 78, 78);
+}
+
+
+
+.filtrar{
+    border: none;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px;
+    background-color: rgb(30, 39, 39);
+    color: #FFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+.limpar{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.3em;
+    visibility: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: 0 1vw;
+}
+.limpar:hover{
+    color: red;
+}
+
+.icone{
+    width: 10vw;
+    margin-bottom: -7vh;
+}
+
+.imagem{
+    max-width: 35vw;
+    max-height: 20vh;
+}
+
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center;
+}
+
+.post{
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 80%;
+    padding: 2%;
+}
+
+#Post{
+    margin-bottom: 10vh;
+    box-shadow: 60px 50px;
+    background-color: #dae98a;
+    border: solid gray 2px;
+}
+
+#Post:hover{
+    animation: sombra 0.5s forwards;
+    background-color: #e0eebd;
+}
+
+.infos{
+    margin-left: 2vw;
+}
+
+.imagem:hover{
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes sombra{
+    0%{
+        box-shadow: 60px 50px;
+    }
+    10%{        
+        box-shadow: 55px 45px;
+    }
+    25%{
+        box-shadow: 50px 40px;
+    }
+    40%{
+        box-shadow: 45px 35px;
+    }
+    50%{        
+        box-shadow: 40px 30px;
+    }
+    100%{
+        box-shadow: 30px 25px;
+    }
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
