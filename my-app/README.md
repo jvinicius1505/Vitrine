@@ -1,6 +1,7 @@
 # Projeto de Vitrine
-### Aqui você pode pesquisar a faixa do prço que voê deseja. 
+### Aqui você pode pesquisar a faixa do preço que você deseja. 
 ![gif](https://j.gifs.com/GRr8pK.gif)
+### Caso não tenha algo na faixa aparece um aviso.
 ![gif](https://j.gifs.com/lRg7BM.gif)
 
 
