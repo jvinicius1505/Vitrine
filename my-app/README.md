@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Projeto de Vitrine
+### Aqui você pode pesquisar a faixa do prço que voê deseja. 
+![gif](https://j.gifs.com/GRr8pK.gif)
+![gif](https://j.gifs.com/lRg7BM.gif)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
