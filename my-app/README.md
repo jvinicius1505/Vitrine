@@ -1,8 +1,9 @@
 # Projeto de Vitrine
 ### Aqui você pode pesquisar a faixa do preço que você deseja. 
-![gif](https://j.gifs.com/GRr8pK.gif)
+![GRr8pK](https://user-images.githubusercontent.com/67977860/197856760-80cd6bbb-1508-406a-9646-1c01f6289cbe.gif)
+
 ### Caso não tenha algo na faixa aparece um aviso.
-![gif](https://j.gifs.com/lRg7BM.gif)
+![OgD8Nr](https://user-images.githubusercontent.com/67977860/197856779-e22a4abf-bd0c-425b-a561-73b037e32701.gif)
 
 
 ## Getting Started with Create React App
